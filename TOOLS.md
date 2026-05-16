@@ -13,6 +13,18 @@ Things like:
 - Device nicknames
 - Anything environment-specific
 
+## 服务
+
+### fileserver (小牛网盘)
+- 路径: `/home/ubuntu/.openclaw/workspace/file-server`
+- 端口: 3000
+- 管理: PM2 (`pm2 restart file-server`)
+
+### xiaoniu-music (小牛音乐)
+- 路径: `/home/ubuntu/.openclaw/workspace/xiaoniu-music`
+- 端口: 3001
+- 管理: PM2 (`pm2 restart xiaoniu-music`)
+
 ## Examples
 
 ```markdown
